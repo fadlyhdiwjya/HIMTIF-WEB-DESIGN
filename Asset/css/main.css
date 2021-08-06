@@ -1,0 +1,61 @@
+.navbar {
+    background: #41BAD4;
+}
+.navbar-brand {
+    font-family: 'Lora';
+    font-size: 32px;
+    font-weight: 400;
+    font-style: bold;
+}
+.navlink {
+    font-family: 'Montserrat';
+}
+.jumbotron {
+    height: 600px;
+}
+.text-learning, title {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.btn-belajar {
+    text-align: center;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+
+.title-text {
+    font-family: 'Lora';
+    margin-top: 90px;
+    color: #41BAD4;
+    font-size: 42px;
+    text-align: center;
+}
+
+.logo-img {
+    margin-top: 40px;
+    width: 350;
+    height: 200;
+}
+
+.box-form {
+    width: 400px;
+    height: 600px;
+    background: black;
+}
+.btn-login {
+    background: #41BAD4 ;
+    color: white;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+}
+.form-control {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.content-container {
+    margin-bottom: 90px;
+}
