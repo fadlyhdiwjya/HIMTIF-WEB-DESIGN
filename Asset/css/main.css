@@ -8,117 +8,39 @@
     font-weight: 400;
     font-style: bold;
 }
-.navlink {
-    font-family: 'Montserrat';
+.form-control {
+    border-radius: 20px 20px 20px 20px;
 }
-.jumbotron {
-    height: 600px;
-}
-.text-learning, title {
-    font-family: 'Montserrat';
-    color: white;
-}
-
-.btn-belajar {
-    text-align: center;
-    margin: auto;
-    margin-left: 550px;
-    margin-top: 60px;
-}
-
-.title-text {
-    font-family: 'Lora';
-    margin-top: 90px;
-    color: #41BAD4;
-    font-size: 42px;
-    text-align: center;
-}
-
-.logo-img {
-    margin-top: 40px;
-    width: 350;
-    height: 200;
-}
-
-.box-form {
+.btn-login {
+    box-shadow: 1px 2px 3px 3px;
     width: 400px;
-    height: 600px;
-    background: black;
+    border-radius: 20px 20px 20px 20px;
 }
-.btn-login, .btn-masuk-kelas {
-    background: #41BAD4 ;
-    color: white;
-    font-family: 'Montserrat';
-    margin-top: 25px;
-    width: 300px;
-    border-radius: 15px 15px 15px 15px;
+.tab-content {
+    margin-bottom: 200px;
 }
 
-.btn-outline-primary {
-    border-radius: 15px 15px 15px 15px;
-    width: 100px;
+.img-user {
+    margin-top: 30px;
+}
+.name-user{
+    margin-top: 40px;
     margin-left: 10px;
 }
-.form-control {
-    border-radius: 5px 5px 5px 5px;
-}
-.judul {
-    margin-bottom: 250px;
-}
 
-.text-judul {
-    font-family: 'Montserrat';
-    font-size: 42px;
-    font-weight: bold;
-    text-align: center;
-}
-.text-desc, h3 {
-    font-family: 'Montserrat';
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.card-deck {
-    box-sizing: border-box;
-    box-shadow: 1px 3px 6px 1px;
-    background: white;
-}
-.card-img-top {
-    width: 200px; height: 200px;
-}
-.card-title {
+.title-news, .title-task, .kurikulum{
     font-family: 'Lora';
     font-size: 22px;
-    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
-.card-text {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
+
+.table-kelas, .table-task {
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px 0px;
+    border: 1px solid white;
 }
+
 .footer {
-    margin-top: 400px;
+    margin-top: 600px;
 }
-.footer-text {
-    color: white;
-    padding-top: 160px;
-    font-family: 'Lora';
-    font-size: 42px;
-}
-.footer .service {
-    padding-top: 180px;
-    font-size: 16px;
-    color: white;
-}
-
-
-
-
-
-
-
-
-
-
