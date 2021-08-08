@@ -11,6 +11,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="Asset/css/main.css" type="text/css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 
 
@@ -27,92 +28,143 @@
     
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-        <a class="navbar-brand text-white" href="/">
-            BeSmart
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="Asset/img/user.svg" class="img-fluid img-user float-right" style="width: 40px; height: 40px;" alt="">
+        </div>
+        <p class="name-user">Hi, Ahmad Fauzan</p>
+      </div>
     </div>
-      </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Content -->
 
-    <div class="container">
-      <div class="row d-flex justify-content-between">
-        <div class="col-8">
-          <img src="Asset/img/ui.jpg" class="img-fluid" style="width: 400px; height: 400px;" alt="">
-          <p>Tetap Produktif selama dirumah walau masa pendemi covid 2019 </p>
+
+
+    <!-- Materi -->
+    <section class="kurikulum">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h5 class="kurikulum">Materi</h5>
+          </div>
+          <div class="col-6">
+            <h5 class="kurikulum text-center">Task</h5>
+          </div>
         </div>
-        <div class="col-4 mt-5">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" style="font-family: 'Montserrat';" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link float-right" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Register</a>
-            </li>
-          </ul>
 
-
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <form>
-                <div class="form-group mt-5">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="row">
+          <div class="col-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Matematika - Materi 1 (Kalkulus)
+                    </button>
+                  </h5>
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                </div>
-                <a href="home.html" class="btn btn-primary btn-login mt-5">Login</button>
-              </form>
-            </div>
-
-
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-              <form>
-                <div class="form-group mt-5">
-                  <label for="username">Username</label>
-                  <input type="text" class="form-control" id="username" placeholder="Username">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-primary btn-login mt-5">Register</button>
-              </form>
             
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit explicabo quas, excepturi ea, libero iusto a sapiente dolore omnis qui odio velit ipsum quisquam pariatur inventore in, mollitia minima.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Matematika - Materi 2 ( kalkulus Lanjutan )
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Matematika - Materi 3 ( Probabilitas )
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+         
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Akhir Content -->
-
-  
+    </section>
+    <!-- Akhir Kurikulum -->
 
 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Footer -->
+      <section class="footer" style="background: #41BAD4; height: 400px;">
+          <div class="container">
+              <div class="row d-flex justify-content-between">
+                  <div class="col-4">
+                      <h5 class="footer-text">BeSmart</h5>
+                  </div>
+                  <div class="col-2">
+                      <h4 class="service">Service</h4>
+                      <div class="row">
+                          <div class="col">
+                              <p class="services">Lesson</hp>
+                              <p class="services">Blog</p>
+                              <hp class="services">help</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-2">
+                      <h4 class="service">Follow Us</h4>
+                      <div class="row">
+                        <div class="col">
+                            <p class="services">About BeSmart</hp>
+                            <p class="services">Conditions</p>
+                            <hp class="services">Privacy policy</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-2">
+                      <h4 class="service">Support</h4>
+                      <div class="row">
+                        <div class="col">
+                            <p class="services">Instagram</hp>
+                            <p class="services">Twitter</p>
+                            <hp class="services">Facebook</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Akhir Footer -->
 
 
 
