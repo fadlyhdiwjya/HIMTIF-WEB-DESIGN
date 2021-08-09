@@ -22,21 +22,57 @@
 
 
 
-    <title>Hello, world!</title>
+    <title>BeSmart | HomePage</title>
   </head>
   <body>
+
+
     
 
     <!-- Navbar -->
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-lg d-sm-none d-md-block">
           <img src="Asset/img/user.svg" class="img-fluid img-user float-right" style="width: 40px; height: 40px;" alt="">
         </div>
         <p class="name-user">Hi, Ahmad Fauzan</p>
       </div>
     </div>
     <!-- Akhir Navbar -->
+
+    <div class="container">
+      <div class="p-3 mb-2 bg-info">
+        <ul class="nav">
+         
+          <div class="dropdown">
+            <button class="btn bg-info text-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Laporan Pembelajaran
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="semester.html">Semester 1</a>
+              <a class="dropdown-item" href="semester.html">Semester 2</a>
+            </div>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="biodata.html">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Learning.html">Learning path</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="friend.html">friends</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="settings.html">Setting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
 
     <!-- News -->
     <section class="news">
@@ -56,6 +92,17 @@
             </div>
           </div>
         </div>
+        <div class="row mt-4">
+          <div class="col">
+            <div class="jumbotron jumbotron-fluid bg-light">
+              <div class="container">
+                <p class="lead">
+                  Selesaikan semua Quiz dan tugas pada Learning path agar Kamu dapat mengikuti test berikutnya
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Akhir News -->
@@ -67,9 +114,7 @@
           <div class="col">
             <h5 class="title-task">Tugas yang harus di kerjakan</h5>
           </div>
-          <div class="col">
-            <h5 class="title-task text-center"> kelas </h5>
-          </div>
+        
         </div>
 
 
@@ -81,86 +126,46 @@
               <thead>
                 <tr>
                   <th scope="col">Mata Pelajaran</th>
-                  <th scope="col">Nama Guru</th>
+                  <th scope="col">Tugas</th>
                   <th scope="col">Waktu pengumpulan</th>
-                  <th scope="col">Action</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Matematika</td>
-                  <td>Ibu Dewi</td>
+                  <td>Program Liniear</td>
                   <td>Kamis , 16:00 wib</td>
-                  <td>
-                    <a href="" class="btn btn-outline-primary">Kerjakan</a>
-                  </td>
+                
                 </tr>
-                  <td>Jaringan</td>
-                  <td>Bapak, Ahmad</td>
+                  <td>Akuntansi</td>
+                  <td>Membahas Tentang Konsep Dasar Persamaan Akuntansi</td>
                   <td>Selasa , 10:00 wib</td>
-                  <td>
-                    <a href="" class="btn btn-outline-primary">Kerjakan</a>
-                  </td>
+                 
                 </tr>
                 </tr>
                   <td>Bahasa Indonesia</td>
-                  <td>Bapak, Ahmad</td>
+                  <td>Membuat resume singkat tentang aljabar</td>
                   <td>Selasa , 10:00 wib</td>
-                  <td>
-                    <a href="" class="btn btn-outline-primary">Kerjakan</a>
-                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
 
 
-          <div class="col-6">
-            <table class="table table-striped table-kelas">
-             
-              <tbody class="table-kelas">
-                <tr>
-                  <td>Matematika</td>
-                  <td>
-                    <a href="kelas.html" class="btn btn-outline-primary float-right">Masuk</a>
-                  </td>
-                </tr>
-                  <td >Jaringan</td>
-                  <td>
-                    <a href="kelas.html" class="btn btn-outline-primary float-right">Masuk</a>
-                  </td>
-                </tr>
-                </tr>
-                  <td >Bahasa Indonesia</td>
-                  <td>
-                    <a href="kelas.html" class="btn btn-outline-primary float-right">Masuk</a>
-                  </td>
-                </tr>
-                </tr>
-                  <td >Matematika</td>
-                  <td>
-                    <a href="kelas.html" class="btn btn-outline-primary float-right">Masuk</a>
-                  </td>
-                </tr>
-                
-              </tbody>
-            </table>
-          </div>
+         
         </div>
         <div class="row">
             <div class="col-6">
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+              <div class="progress mt-5">
+                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
               </div>
             </div>
         </div>
       </div>
     </section>
-    <!-- Akhir Reminder -->
-
 
     <!-- Kurikulum -->
-    <section class="kurikulum">
+    <section class="kurikulum mb-5">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -179,10 +184,37 @@
                     </button>
                   </h5>
                 </div>
-            
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  <p class="text-muted" style="font-family: 'Montserrat'; font-size: 16px;">Mempelajari dan Membahas Tentang Eksponen dan Logaritma, Persamaan & Pertidaksamaan Linier, Matriks, Relasi & Fungsi, Serta Barisan & Deret </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingInggris">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInggris" aria-expanded="true" aria-controls="collapseInggris">
+                      Bahasa Inggris
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseInggris" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                   <p class="text-muted" style="font-family: 'Montserrat'; font-size: 16px;">Mempelajari dan Membahas Tentang Talking about Self, Complimenting & Showing Care, Expressing Intention, Congratulating Others, Describing People Serta Giving Announcement</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingAk">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAk" aria-expanded="true" aria-controls="collapseAk">
+                      Akuntansi
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseAk" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="text-muted" style="font-family: 'Montserrat'; font-size: 16px;">Mempelajari dan Membahas Tentang Masalah Pokok Ekonomi, Perilaku Konsumen & Perilaku Produsen, Harga & Pasar, Kebijakan Ekonomi Pemerintah Serta Uang & Perbankan.</p>
                   </div>
                 </div>
               </div>
@@ -196,7 +228,7 @@
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                   <p class="text-muted" style="font-family: 'Montserrat'; font-size: 16px;">Mempelajari dan Membahas Tentang Menyusun Laporan Hasil Observasi, Mengembangkan Pendapat Dalam Eksposisi, Menyampaikan Ide Melalui Anekdot, Melestarikan Nilai Kearifan Lokal Melalui Cerita Rakyat, Serta Mendalami Puisi</p>
                   </div>
                 </div>
               </div>
@@ -204,13 +236,13 @@
                 <div class="card-header" id="headingThree">
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Jaringan
+                      Informatika
                     </button>
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                   <p class="text-muted" style="font-family: 'Montserrat'; font-size: 16px;">Mempelajari dan Membahas Tentang Organisasi Dasar Komputer , Macam - Macam Perangkat Lunak, Serta Jaringan Komputer</p>
                   </div>
                 </div>
               </div>
@@ -220,81 +252,6 @@
       </div>
     </section>
     <!-- Akhir Kurikulum -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- Footer -->
-      <section class="footer" style="background: #41BAD4; height: 400px;">
-          <div class="container">
-              <div class="row d-flex justify-content-between">
-                  <div class="col-4">
-                      <h5 class="footer-text">BeSmart</h5>
-                  </div>
-                  <div class="col-2">
-                      <h4 class="service">Service</h4>
-                      <div class="row">
-                          <div class="col">
-                              <p class="services">Lesson</hp>
-                              <p class="services">Blog</p>
-                              <hp class="services">help</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-2">
-                      <h4 class="service">Follow Us</h4>
-                      <div class="row">
-                        <div class="col">
-                            <p class="services">About BeSmart</hp>
-                            <p class="services">Conditions</p>
-                            <hp class="services">Privacy policy</p>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col-2">
-                      <h4 class="service">Support</h4>
-                      <div class="row">
-                        <div class="col">
-                            <p class="services">Instagram</hp>
-                            <p class="services">Twitter</p>
-                            <hp class="services">Facebook</p>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- Akhir Footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- Optional JavaScript -->
